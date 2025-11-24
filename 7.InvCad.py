@@ -4,4 +4,5 @@ def invertir(cadena):
     return cadena[-1]+invertir(cadena[:-1])
 print(invertir("hola"))  
 print(invertir("python"))  
-print(invertir("Estiven"))
+
+print(invertir("Samuel"))
